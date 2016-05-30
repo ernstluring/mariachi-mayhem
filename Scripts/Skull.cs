@@ -55,24 +55,10 @@ public class Skull : MonoBehaviour {
 	}
 
 	public void EnableCollider () {
-//		col.enabled = true;
 		collisionBox.enabled = true;
-//		triggerBox.enabled = true;
 	}
 
 	public void DisableCollider () {
-//		col.enabled = false;
 		collisionBox.enabled = false;
-//		triggerBox.enabled = false;
 	}
-
-//	public void SetColor (Texture skullColorTexture) {
-//		mat.SetTexture("_MainTex", skullColorTexture);
-//	}
-//
-//	public void SetColor (Material colorMat) {
-//		
-//	}
-
-
 }
